@@ -108,7 +108,7 @@ header{
 	justify-content: space-between;
 	align-items: center;
 	color: #fff;
-	padding: 35px 100px 0;
+	padding: 35px 100px;
 	font-family: 'Goudy Bookletter 1911', serif;
 
 }
@@ -125,8 +125,9 @@ header .splashcenter {
 header h5{
 	background-image: url('../img/logo.png');
 	-webkit-filter: invert(100%);
-	min-height: 85px;
-	min-width: 175px;
+	min-height: 88px;
+	min-width: 140px;
+	margin: 30px 30px;
 	background-size: contain;
 	background-repeat: no-repeat;
 }
@@ -186,6 +187,7 @@ header nav li:last-child{
 	min-height: 100vh;
 	color: #fff;
 	text-align: center;
+	padding: 150px 10px;
 }
 
 .splash .background-image{
@@ -213,9 +215,9 @@ header nav li:last-child{
 
 .splash h1{
 	font: 60px 'Goudy Bookletter 1911', serif;
-	font-family:
-	margin-bottom: 15px;
+	padding-top: 25px;
 }
+
 
 .splash h3{
 	font: normal 28px 'Open Sans', sans-serif;
@@ -226,14 +228,14 @@ header nav li:last-child{
 	padding: 20px 46px;
 }
 
-@media (max-width: 800px){
+@media (max-width: 700px){
 
 	.splash{
 		min-height: 600px;
 	}
 
 	.splash h1{
-		font-size: 48px;
+		font-size: 36px;
 	}
 
 	.splash h3{
