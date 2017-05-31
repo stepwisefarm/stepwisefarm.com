@@ -72,8 +72,8 @@ section{
 
 section h3.title{
 	color: #414a4f;
-	text-transform: capitalize;
-	font: bold 32px 'Open Sans', sans-serif;
+	text-transform: none;
+	font: bold 32px 'Goudy Bookletter 1911', serif;
 	margin-bottom: 35px;
 	text-align: center;
 }
@@ -190,9 +190,9 @@ header nav li{
 	 align-items: center;
 	 justify-content: center;
  }
- .hero{
-	 min-height: 40vh;
- }
+ /* section .hero{
+	 min-height: 300px;
+ } */
 }
 
 /*----------------
@@ -242,10 +242,10 @@ header nav li{
 }
 
 
-.splash h3{
+/* .splash h3{
 	font: normal 28px 'Open Sans', sans-serif;
 	margin-bottom: 40px;
-}
+} */
 
 .splash a{
 	box-sizing: content-box;
@@ -257,11 +257,11 @@ header nav li{
 		font-size: 36px;
 	}
 
-	.splash h3{
+	/*	.splash h3{
 		font-size: 24px;
 	}
 
-/*	.splash a.btn{
+.splash a.btn{
 		padding: 15px 40px;
 	} */
 
@@ -273,11 +273,11 @@ header nav li{
 		font-size: 24px;
 	}
 
-	.splash h3{
+	/*	.splash h3{
 		font-size: 12px;
 	}
 
-	/* .splash a.btn{
+	 .splash a.btn{
 		padding: 15px 40px;
 	} */
 
@@ -290,7 +290,7 @@ header nav li{
 .hero{
 	position: relative;
 	justify-content: center;
-	min-height: 35vh;
+	min-height: 25vh;
 	color: #fff;
 	text-align: center;
 }
@@ -319,7 +319,7 @@ header nav li{
 	opacity: 0.6;
 }
 
-.hero h1{
+/* .hero h1{
 	font: 60px 'Goudy Bookletter 1911', serif;
 	font-family:
 	margin-bottom: 15px;
@@ -330,21 +330,24 @@ header nav li{
 	margin-bottom: 40px;
 }
 
-.hero a.btn{
+/* .hero a.btn{
 	padding: 20px 46px;
-}
+} */
 
-@media (max-width: 800px){
+@media (max-width: 1000px){
 
 	/* .hero{
 		min-height: 600px;
 	} */
+	.hero{
+		min-height: 300px;
+	}
 
-	.hero h1{
+	/* .hero h1{
 		font-size: 48px;
 	}
 
-	.hero h3{
+	/* .hero h3{
 		font-size: 24px;
 	}
 
