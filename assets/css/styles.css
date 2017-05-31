@@ -476,7 +476,7 @@ header nav li:last-child{
 	width: 80%;
 }
 
-.contact form input{
+.contact input[type="text"]{
 	padding: 15px;
 	flex: 1;
 	/* margin-right: 30px; */
@@ -492,23 +492,34 @@ header nav li:last-child{
 	color: #555;
 }
 
-.contact form .btn{
-	padding: 18px 42px;
-	margin-top: 20px;
-}
-
 
 @media (max-width: 2000px){
 
-	.contact form input{
+	.contact input[type="text"]{
 		flex-basis: 100%;
 		margin: 0 0 20px 0;
+		border-style: inset;
+		border-width: 1px;
 	}
 	.contact form textarea{
 		flex-basis: 100%;
-		margin: 0 0 40px 0;
+		margin: 0 0 20px 0;
+		border-style: inset;
+		border-width: 1px;
 	}
 
+}
+
+.contact input[type="submit"]{
+	padding: 18px 42px;
+	margin-top: 20px;
+	color: #fff;
+	border-radius: 4px;
+	text-transform: uppercase;
+	background-color: #414a4f;
+	font-weight: 800;
+	text-align: center;
+	border: none;
 }
 
 
