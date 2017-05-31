@@ -343,6 +343,7 @@ header nav li:last-child{
 
 .our-work .grid li.xlarge{
 	flex-basis: 80%;
+	height: auto;
 }
 
 
